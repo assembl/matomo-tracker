@@ -1,6 +1,9 @@
 {
-  "name": "matomo-assembl",
+  "name": "@datapunt/matomo-tracker-js",
   "version": "0.2.1",
+  "description": "Matomo tracker",
+  "license": "MPL-2.0",
+  "author": "Datapunt Amsterdam",
   "scripts": {
     "build": "yarn build:ts && yarn build:ts:es",
     "build:ts": "tsc -b packages/js packages/react",
