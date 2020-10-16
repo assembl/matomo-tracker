@@ -1,5 +1,5 @@
 {
-  "name": "@datapunt/matomo-tracker-js",
+  "name": "matomo-assembl",
   "version": "0.2.1",
   "description": "Matomo tracker",
   "license": "MPL-2.0",
