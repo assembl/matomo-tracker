@@ -15,10 +15,7 @@
     "lint": "eslint .",
     "test": "jest",
     "prettier": "prettier --write ./packages/**/**/*.{ts,tsx}",
-    "prepublishOnly": "yarn build",
-    "postinstall": "lerna link",
-    "publish:canary": "lerna publish --canary",
-    "publish:stable": "lerna publish"
+    "prepublishOnly": "yarn build"
   },
   "workspaces": [
     "packages/*"
